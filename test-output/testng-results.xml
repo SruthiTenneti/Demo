@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54" started-at="2018-08-18T05:28:20Z" finished-at="2018-08-18T05:28:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54" started-at="2018-08-18T05:28:20Z" finished-at="2018-08-18T05:28:20Z">
+      <class name="GIT.Gitrep$GitRep">
+        <test-method status="PASS" signature="method1()[pri:1, instance:GIT.Gitrep$GitRep@224edc67]" name="method1" duration-ms="11" started-at="2018-08-18T05:28:20Z" finished-at="2018-08-18T05:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:2, instance:GIT.Gitrep$GitRep@224edc67]" name="method2" duration-ms="2" started-at="2018-08-18T05:28:20Z" finished-at="2018-08-18T05:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:3, instance:GIT.Gitrep$GitRep@224edc67]" name="method3" duration-ms="1" started-at="2018-08-18T05:28:20Z" finished-at="2018-08-18T05:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- GIT.Gitrep$GitRep -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
