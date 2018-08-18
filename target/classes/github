@@ -3,6 +3,8 @@
   <test name="Test">
     <classes>
       <class name="GIT.Gitrep"/>
+        <class name="GIT.Gitrep2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
