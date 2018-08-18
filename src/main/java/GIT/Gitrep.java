@@ -7,17 +7,17 @@ public class Gitrep {
 		@Test(priority=1)
 		public void method1()
 		{
-			System.out.println("first");
+			System.out.println("first gitrep");
 		}
 		@Test(priority=2)
 		public void method2()
 		{
-			System.out.println("second");
+			System.out.println("second gitrep");
 		}
 		@Test(priority=3)
 		public void method3()
 		{
-			System.out.println("third");
+			System.out.println("third gitrep");
 		}
 
 	}
