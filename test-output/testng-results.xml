@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64850" started-at="2018-08-18T17:09:17Z" finished-at="2018-08-18T17:10:21Z">
+  <suite name="Suite" duration-ms="24190" started-at="2018-08-18T17:28:33Z" finished-at="2018-08-18T17:28:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="64850" started-at="2018-08-18T17:09:17Z" finished-at="2018-08-18T17:10:21Z">
+    <test name="Test" duration-ms="24190" started-at="2018-08-18T17:28:33Z" finished-at="2018-08-18T17:28:57Z">
       <class name="GIT.Gitrep2">
-        <test-method status="PASS" signature="method1()[pri:1, instance:GIT.Gitrep2@464bee09]" name="method1" duration-ms="7" started-at="2018-08-18T22:39:52Z" finished-at="2018-08-18T22:39:52Z">
+        <test-method status="PASS" signature="method1()[pri:1, instance:GIT.Gitrep2@464bee09]" name="method1" duration-ms="10" started-at="2018-08-18T22:58:46Z" finished-at="2018-08-18T22:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:2, instance:GIT.Gitrep2@464bee09]" name="method2" duration-ms="3" started-at="2018-08-18T22:40:21Z" finished-at="2018-08-18T22:40:21Z">
+        <test-method status="PASS" signature="method2()[pri:2, instance:GIT.Gitrep2@464bee09]" name="method2" duration-ms="3" started-at="2018-08-18T22:58:57Z" finished-at="2018-08-18T22:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method3()[pri:3, instance:GIT.Gitrep2@464bee09]" name="method3" duration-ms="4" started-at="2018-08-18T22:40:21Z" finished-at="2018-08-18T22:40:21Z">
+        <test-method status="PASS" signature="method3()[pri:3, instance:GIT.Gitrep2@464bee09]" name="method3" duration-ms="3" started-at="2018-08-18T22:58:57Z" finished-at="2018-08-18T22:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
       </class> <!-- GIT.Gitrep2 -->
       <class name="GIT.Gitrep$GitRep">
-        <test-method status="PASS" signature="method1()[pri:1, instance:GIT.Gitrep$GitRep@146ba0ac]" name="method1" duration-ms="35052" started-at="2018-08-18T22:39:17Z" finished-at="2018-08-18T22:39:52Z">
+        <test-method status="PASS" signature="method1()[pri:1, instance:GIT.Gitrep$GitRep@146ba0ac]" name="method1" duration-ms="13383" started-at="2018-08-18T22:58:33Z" finished-at="2018-08-18T22:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:2, instance:GIT.Gitrep$GitRep@146ba0ac]" name="method2" duration-ms="29720" started-at="2018-08-18T22:39:52Z" finished-at="2018-08-18T22:40:21Z">
+        <test-method status="PASS" signature="method2()[pri:2, instance:GIT.Gitrep$GitRep@146ba0ac]" name="method2" duration-ms="10722" started-at="2018-08-18T22:58:46Z" finished-at="2018-08-18T22:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method3()[pri:3, instance:GIT.Gitrep$GitRep@146ba0ac]" name="method3" duration-ms="5" started-at="2018-08-18T22:40:21Z" finished-at="2018-08-18T22:40:21Z">
+        <test-method status="PASS" signature="method3()[pri:3, instance:GIT.Gitrep$GitRep@146ba0ac]" name="method3" duration-ms="3" started-at="2018-08-18T22:58:57Z" finished-at="2018-08-18T22:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->

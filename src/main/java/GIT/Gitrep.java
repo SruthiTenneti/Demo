@@ -1,8 +1,12 @@
 package GIT;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -18,6 +22,9 @@ public class Gitrep {
 		 driver.get("http://www.gmail.com");
 		 driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			
+			String title = driver.getTitle();
+		Assert.assertEquals(title, "Gmail");
 			System.out.println("first gitrep");
 			driver.quit();
 		}
@@ -25,10 +32,13 @@ public class Gitrep {
 		public void method2()
 		{
 			driver = new ChromeDriver();
+			
 			 driver.get("http://www.gmail.com");
 			 driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			System.out.println("second gitrep");
+			String title2 = driver.getTitle();
+			Assert.assertEquals(title2, "Gmail");
 			driver.quit();
 		}
 		@Test(priority=3)
